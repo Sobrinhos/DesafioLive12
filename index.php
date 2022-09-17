@@ -43,13 +43,13 @@
 <body>
   <form action="index.php" method="post">
     <label for="nota1">Nota 1</label>
-    <input type="number" min="0" max="10" name="nota1" id="nota1">
+    <input type="text" min="0" max="10" name="nota1" id="nota1">
 
     <label for="nota2">Nota 2</label>
-    <input type="number" min="0" max="10" name="nota2" id="nota2">
+    <input type="text" min="0" max="10" name="nota2" id="nota2">
 
     <label for="nota3">Nota 3</label>
-    <input type="number" min="0" max="10" name="nota3" id="nota3">
+    <input type="text" min="0" max="10" name="nota3" id="nota3">
 
     <button type="submit">Calcular</button>
   </form>
